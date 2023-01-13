@@ -4,7 +4,6 @@ abstract class Shape {
     int width;
     abstract void area();
 }
-//your code goes here
 class Square extends Shape{
     Square(int x){
         width = x;
